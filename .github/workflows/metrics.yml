@@ -15,7 +15,9 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate overview metrics
+      # Theme/template decision: use lowlighter/metrics `classic` template across all cards
+      # to keep visuals consistent and pair with LinkedIn-blue badges in README.
+      - name: Generate overview metrics (profile summary)
         uses: lowlighter/metrics@v3.34
         with:
           filename: metrics/overview.svg
@@ -28,7 +30,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Prague
 
-      - name: Generate language metrics
+      - name: Generate language metrics (top skills)
         uses: lowlighter/metrics@v3.34
         with:
           filename: metrics/languages.svg
@@ -46,7 +48,7 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           config_timezone: Europe/Prague
 
-      - name: Generate streak metrics
+      - name: Generate streak metrics (consistency and habits)
         uses: lowlighter/metrics@v3.34
         with:
           filename: metrics/streak.svg
@@ -64,7 +66,7 @@ jobs:
           plugin_habits_charts: yes
           config_timezone: Europe/Prague
 
-      - name: Generate contribution metrics
+      - name: Generate contribution metrics (activity calendar)
         uses: lowlighter/metrics@v3.34
         with:
           filename: metrics/contributions.svg
@@ -74,10 +76,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           user: petrakol
           template: classic
-          base: activity, metadata
-          plugin_activity: yes
-          plugin_activity_limit: 8
-          plugin_activity_visibility: all
-          plugin_activity_days: 14
-          plugin_activity_filter: all
+          base: metadata
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
           config_timezone: Europe/Prague
