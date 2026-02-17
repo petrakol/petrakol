@@ -4,14 +4,18 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/petrakol/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/petrakol">
-    <img src="https://komarev.com/ghpvc/?username=petrakol&style=for-the-badge&color=0A66C2" alt="Profile Views" />
+    <img src="https://img.shields.io/badge/GitHub-Profile-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://github.com/petrakol?tab=followers">
-    <img src="https://img.shields.io/github/followers/petrakol?style=for-the-badge&logo=github" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/followers/petrakol?style=for-the-badge&logo=github&label=Followers&color=0A66C2" alt="GitHub Followers" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=petrakol&style=for-the-badge&color=0A66C2&label=Profile+Views" alt="Visitors Counter Badge" />
 </p>
 
 ---
@@ -29,25 +33,56 @@
 - Developing repeatable product frameworks for rapid experimentation
 - Evaluating opportunities where AI creates durable business leverage
 
+## Uniform Dev Icons
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,typescript,nodejs,react,postgres,docker,aws,git,github,vscode&perline=10" alt="Uniform Dev Icons" />
+</p>
+
+## Uniform Social Icons
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/petrakol/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Social" />
+  </a>
+  <a href="https://github.com/petrakol">
+    <img src="https://img.shields.io/badge/GitHub-111111?style=flat-square&logo=github&logoColor=white" alt="GitHub Social" />
+  </a>
+</p>
+
 ## GitHub at a glance
 
+> Metrics below are generated from the GitHub API by a scheduled workflow every 6 hours (timezone: Europe/Prague), improving reliability and freshness.
+
+## GitHub Profile Stats Card
+
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=petrakol&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub Stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=petrakol&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/overview.svg" alt="GitHub Profile Stats Card" />
+</p>
+
+## GitHub Top Skills
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/languages.svg" alt="GitHub Top Skills" />
+</p>
+
+## Streak and Contributions
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/streak.svg" alt="Streak and Consistency" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=petrakol&theme=transparent&hide_border=true" alt="GitHub Streak" />
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=petrakol&theme=transparent&utcOffset=0" alt="Productive Time" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/contributions.svg" alt="Recent Contributions" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=petrakol&theme=transparent" alt="Profile Details" />
-</p>
+## Further GitHub improvements
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=petrakol&theme=flat&no-frame=true&margin-w=10&row=1&column=6" alt="GitHub Trophies" />
-</p>
+- Pin all GitHub Actions to specific versions (already done for metrics) and enable Dependabot for action updates.
+- Create and pin 3–6 showcase repositories with concise READMEs and architecture diagrams.
+- Add repository topics consistently (AI, product, venture, domain tags) to improve discoverability.
+- Keep contribution quality high with small, regular commits and meaningful PR descriptions.
+- Add a short "Now" section to this profile with your current focus and links to active builds.
 
 ## Contact
 
