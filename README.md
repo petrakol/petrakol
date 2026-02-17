@@ -33,6 +33,20 @@
 - Developing repeatable product frameworks for rapid experimentation
 - Evaluating opportunities where AI creates durable business leverage
 
+## Visualisations
+
+### GitHub Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=petrakol&theme=github-compact&hide_border=true" alt="GitHub Activity Graph" />
+</p>
+
+### Contribution Heatmap
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/contributions.svg" alt="Contribution Heatmap" />
+</p>
+
 ## Uniform Dev Icons
 
 <p align="center">
@@ -66,23 +80,11 @@
   <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/languages.svg" alt="GitHub Top Skills" />
 </p>
 
-## Streak and Contributions
+## Streak
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/streak.svg" alt="Streak and Consistency" />
 </p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/contributions.svg" alt="Recent Contributions" />
-</p>
-
-## Further GitHub improvements
-
-- Pin all GitHub Actions to specific versions (already done for metrics) and enable Dependabot for action updates.
-- Create and pin 3–6 showcase repositories with concise READMEs and architecture diagrams.
-- Add repository topics consistently (AI, product, venture, domain tags) to improve discoverability.
-- Keep contribution quality high with small, regular commits and meaningful PR descriptions.
-- Add a short "Now" section to this profile with your current focus and links to active builds.
 
 ## Contact
 
