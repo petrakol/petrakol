@@ -1,6 +1,4 @@
-<h1 align="center">Petrakol</h1>
-<p align="center"><strong>AI Founder | VC Investor | Product Architect</strong></p>
-<p align="center">Building practical AI products and investing in teams turning ambitious ideas into measurable outcomes.</p>
+<h1 align="center">Petrakol — AI Founder | VC Investor | Product Architect — Building practical AI products and investing in teams turning ambitious ideas into measurable outcomes.</h1>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/petrakol/">
