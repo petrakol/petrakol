@@ -1,72 +1,98 @@
-<h1 align="center">Petrakol — AI Founder | VC Investor | Product Architect — Building practical AI products and investing in teams turning ambitious ideas into measurable outcomes.</h1>
+<h1 align="center">Petrakol — AI Founder | VC Investor | Product Architect</h1>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/petrakol/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/petrakol">
-    <img src="https://img.shields.io/badge/GitHub-Profile-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://github.com/petrakol?tab=followers">
-    <img src="https://img.shields.io/github/followers/petrakol?style=for-the-badge&logo=github&label=Followers&color=0A66C2" alt="GitHub Followers" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="220" valign="top">
+      <img src="assets/profile.svg" alt="Petrakol profile headshot" width="200" />
+    </td>
+    <td valign="top">
+      <p><strong>Mission:</strong> Build practical AI products and back founders turning ambitious ideas into measurable outcomes.</p>
+      <p><strong>Current focus:</strong> applied AI ventures, product architecture, and investor-operator support.</p>
+      <p><strong>Call to action:</strong> If you are building in AI and want to collaborate, invest, or scale execution, let’s connect.</p>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=petrakol&style=for-the-badge&color=0A66C2&label=Profile+Views" alt="Visitors Counter Badge" />
-</p>
+## Highlights
 
----
+- Launched multiple AI-native product experiments from concept to production-ready MVPs.
+- Expanded investment activity across applied AI and vertical software operators.
+- Published and open-sourced repeatable product execution frameworks for founder teams.
+- Built ScopeBench to make AGI-agent aspiration and termination logic auditable.
 
-## What I work on
+<svg width="100%" height="110" viewBox="0 0 960 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Milestones timeline">
+  <line x1="70" y1="55" x2="890" y2="55" stroke="#0A66C2" stroke-width="6"/>
+  <circle cx="140" cy="55" r="12" fill="#0A66C2"/>
+  <circle cx="380" cy="55" r="12" fill="#0A66C2"/>
+  <circle cx="620" cy="55" r="12" fill="#0A66C2"/>
+  <circle cx="840" cy="55" r="12" fill="#0A66C2"/>
+  <text x="95" y="25" fill="#0A66C2" font-size="18">2023</text>
+  <text x="300" y="25" fill="#0A66C2" font-size="18">2024</text>
+  <text x="545" y="25" fill="#0A66C2" font-size="18">2025</text>
+  <text x="785" y="25" fill="#0A66C2" font-size="18">2026</text>
+  <text x="55" y="92" fill="#111111" font-size="14">AI product systematisation</text>
+  <text x="300" y="92" fill="#111111" font-size="14">Investment thesis expansion</text>
+  <text x="555" y="92" fill="#111111" font-size="14">ScopeBench launch</text>
+  <text x="730" y="92" fill="#111111" font-size="14">Global founder collaborations</text>
+</svg>
 
-- AI-native products from concept to launch
-- Venture investing across applied AI and vertical software
-- Product architecture for scalable, resilient platforms
-- Founder support on strategy, execution, and go-to-market
+## Pinned Projects
 
-## Featured work
-
-- Building and advising AI-first companies across early and growth stages
-- Developing repeatable product frameworks for rapid experimentation
-- Evaluating opportunities where AI creates durable business leverage
+- [**ScopeBench**](https://github.com/petrakol/ScopeBench) ![ScopeBench stars](https://img.shields.io/github/stars/petrakol/ScopeBench?style=for-the-badge&logo=github&label=Stars&color=0A66C2)
+  - A benchmark concept for enforceable AGI-agent aspiration and termination behavior.
+- [**ai-hedge-fund**](https://github.com/petrakol/ai-hedge-fund) ![ai-hedge-fund stars](https://img.shields.io/github/stars/petrakol/ai-hedge-fund?style=for-the-badge&logo=github&label=Stars&color=0A66C2)
+  - A collaborative AI hedge fund team project focused on strategy and automation.
+- [**Steam-Game-Review-Scraper**](https://github.com/petrakol/Steam-Game-Review-Scraper) ![Steam-Game-Review-Scraper stars](https://img.shields.io/github/stars/petrakol/Steam-Game-Review-Scraper?style=for-the-badge&logo=github&label=Stars&color=0A66C2)
+  - Extracts reviews and user metadata for game analytics and sentiment workflows.
+- [**bulk-downloader-for-reddit**](https://github.com/petrakol/bulk-downloader-for-reddit) ![bulk-downloader-for-reddit stars](https://img.shields.io/github/stars/petrakol/bulk-downloader-for-reddit?style=for-the-badge&logo=github&label=Stars&color=0A66C2)
+  - Archives Reddit content for long-term research and dataset building.
+- [**text-preprocessing-techniques**](https://github.com/petrakol/text-preprocessing-techniques) ![text-preprocessing-techniques stars](https://img.shields.io/github/stars/petrakol/text-preprocessing-techniques?style=for-the-badge&logo=github&label=Stars&color=0A66C2)
+  - Demonstrates practical NLP preprocessing pipelines in Python.
+- [**blockXpand**](https://github.com/petrakol/blockXpand) ![blockXpand stars](https://img.shields.io/github/stars/petrakol/blockXpand?style=for-the-badge&logo=github&label=Stars&color=0A66C2)
+  - Experimental project exploring scalable app architecture patterns.
 
 ## GitHub Stats
 
-> Metrics are generated by `.github/workflows/metrics.yml` every 6 hours (timezone: Europe/Prague) and written to the `output` branch.
-> Visual style uses the **classic** lowlighter/metrics template with LinkedIn blue accents in badges for a consistent profile palette.
+> Updated every 6 hours, Europe/Prague. Dynamic SVGs are generated by `.github/workflows/metrics.yml` on the `output` branch.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/overview.svg" alt="Overview and profile highlights" width="600" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/overview.svg" alt="Overview metrics" width="400" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/languages.svg" alt="Language metrics" width="400" />
 </p>
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/languages.svg" alt="Top languages and repository focus" width="600" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/contributions.svg" alt="Contribution metrics" width="400" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/streak.svg" alt="Streak metrics" width="400" />
 </p>
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/contributions.svg" alt="GitHub activity and contribution calendar" width="600" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/streak.svg" alt="Streak and development habits" width="600" />
+  <img src="https://raw.githubusercontent.com/petrakol/petrakol/output/metrics/repositories.svg" alt="Most starred repositories" width="400" />
 </p>
 
 ## Tech & Contact
 
+<p><strong>Visual identity:</strong> LinkedIn blue <code>#0A66C2</code> as primary accent, neutral dark text <code>#111111</code>, and white for contrast. Badge style is unified as <code>for-the-badge</code>.</p>
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,typescript,postgres,docker,aws,figma&perline=6" alt="Core technologies across AI, data platforms, and product design" />
+  <img src="https://skillicons.dev/icons?i=python,typescript,postgres,docker,aws,figma,githubactions&perline=7" alt="Active technologies" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/petrakol/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+  <a href="https://www.linkedin.com/in/pkolesarova/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://github.com/petrakol">
-    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="mailto:petrakol@proton.me">
+    <img src="https://img.shields.io/badge/Email-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
-## Contact
+## Other Projects
 
-- LinkedIn: https://www.linkedin.com/in/petrakol/
+- [blockXpand](https://www.blockxpand.com)
+- [WhyNot Capital](https://www.whynotcapital.com)
+- [LinkedIn profile](https://www.linkedin.com/in/pkolesarova/)
+
+## How metrics are generated
+
+The profile metrics are generated by the GitHub Actions workflow in `.github/workflows/metrics.yml`. To tweak cards, plugins, cadence, or theme/palette, edit that workflow and run **workflow_dispatch**.
