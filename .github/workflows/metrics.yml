@@ -1,9 +1,12 @@
 name: Update profile metrics
 
 on:
+  # Refresh profile visualisations every 6 hours.
   schedule:
     - cron: "0 */6 * * *"
+  # Allow manual regeneration from the Actions tab.
   workflow_dispatch:
+  # Keep output fresh after README/workflow edits on main.
   push:
     branches:
       - main
@@ -11,12 +14,17 @@ on:
 permissions:
   contents: write
 
+env:
+  # Unified visual identity across all generated SVG cards.
+  METRICS_TEMPLATE: classic
+  METRICS_THEME: github-dark
+  METRICS_TIMEZONE: Europe/Prague
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # Theme/template decision: use lowlighter/metrics `classic` template across all cards
-      # to keep visuals consistent and pair with LinkedIn-blue badges in README.
+      # Overview card: profile header + activity + repository metadata snapshot.
       - name: Generate overview metrics (profile summary)
         uses: lowlighter/metrics@v3.34
         with:
@@ -26,10 +34,12 @@ jobs:
           committer_message: "chore: update overview metrics"
           token: ${{ secrets.GITHUB_TOKEN }}
           user: petrakol
-          template: classic
+          template: ${{ env.METRICS_TEMPLATE }}
+          config_theme: ${{ env.METRICS_THEME }}
+          config_timezone: ${{ env.METRICS_TIMEZONE }}
           base: header, activity, community, repositories, metadata
-          config_timezone: Europe/Prague
 
+      # Languages card: ranked language distribution with percentage and bar visuals.
       - name: Generate language metrics (top skills)
         uses: lowlighter/metrics@v3.34
         with:
@@ -39,15 +49,17 @@ jobs:
           committer_message: "chore: update language metrics"
           token: ${{ secrets.GITHUB_TOKEN }}
           user: petrakol
-          template: classic
+          template: ${{ env.METRICS_TEMPLATE }}
+          config_theme: ${{ env.METRICS_THEME }}
+          config_timezone: ${{ env.METRICS_TIMEZONE }}
           base: repositories, metadata
           plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
-          config_timezone: Europe/Prague
 
+      # Streak card: yearly cadence and working pattern consistency.
       - name: Generate streak metrics (consistency and habits)
         uses: lowlighter/metrics@v3.34
         with:
@@ -57,15 +69,17 @@ jobs:
           committer_message: "chore: update streak metrics"
           token: ${{ secrets.GITHUB_TOKEN }}
           user: petrakol
-          template: classic
+          template: ${{ env.METRICS_TEMPLATE }}
+          config_theme: ${{ env.METRICS_THEME }}
+          config_timezone: ${{ env.METRICS_TIMEZONE }}
           base: metadata
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
-          config_timezone: Europe/Prague
 
+      # Contributions card: compact calendar heatmap for recent activity.
       - name: Generate contribution metrics (activity calendar)
         uses: lowlighter/metrics@v3.34
         with:
@@ -75,8 +89,28 @@ jobs:
           committer_message: "chore: update contribution metrics"
           token: ${{ secrets.GITHUB_TOKEN }}
           user: petrakol
-          template: classic
+          template: ${{ env.METRICS_TEMPLATE }}
+          config_theme: ${{ env.METRICS_THEME }}
+          config_timezone: ${{ env.METRICS_TIMEZONE }}
           base: metadata
           plugin_calendar: yes
           plugin_calendar_limit: 1
-          config_timezone: Europe/Prague
+
+      # Repositories card: most-starred projects and star-related highlights.
+      - name: Generate repositories metrics (most-starred projects)
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: metrics/repositories.svg
+          output_action: commit
+          committer_branch: output
+          committer_message: "chore: update repositories metrics"
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: petrakol
+          template: ${{ env.METRICS_TEMPLATE }}
+          config_theme: ${{ env.METRICS_THEME }}
+          config_timezone: ${{ env.METRICS_TIMEZONE }}
+          base: metadata
+          plugin_repositories: yes
+          plugin_repositories_pinned: 6
+          plugin_stars: yes
+          plugin_stars_limit: 4
